@@ -1,0 +1,30 @@
+{
+  "name": "movies-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "babel-node ./initialise-dev/initDevDB.js && nodemon --exec npm start"
+  },
+  "author": "ShiQingQAQ",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/eslint-parser": "^7.25.9",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.17.0",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "node-fetch": "^2.7.0"
+  }
+}
